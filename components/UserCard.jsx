@@ -20,7 +20,7 @@ export default function UserCard(props) {
           <img
             src={props.img}
             width="90px"
-            class="rounded-circle me-4"
+            className="rounded-circle me-4"
           />
           <span className="text-center display-6 me-auto">{props.name}</span>
           {downicon ? <IconChevronUp /> : <IconChevronDown />}
